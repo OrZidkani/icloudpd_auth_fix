@@ -29,4 +29,4 @@ cd icloud_photos_downloader-auth_fix
 docker build . -t icloudpd_dev
 
 # Run the Docker container with the provided username and password
-sudo docker run -it --rm --name icloudpd -v /mnt/iCloud:/data -e TZ=Europe/Berlin icloudpd_dev icloudpd --directory /data --username
+sudo docker run -it --rm --name icloudpd -v /mnt/iCloud:/data -e TZ=Europe/Berlin icloudpd_dev icloudpd --directory /data --username "$ICLOUD_USERNAME" --watch-with-interval 1800 --password "$ICLOUD_PASSWORD"
