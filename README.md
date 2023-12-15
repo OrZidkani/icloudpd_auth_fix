@@ -1,4 +1,4 @@
-# iCloud Photo Downloader
+# iCloud Photo Downloader Script
 
 This project contains a script for downloading the auth fix for the fix provided [here](https://github.com/icloud-photos-downloader/icloud_photos_downloader/issues/729#issuecomment-1856569194) using Docker. It automates the process of setting up the environment and running the necessary commands.
 
