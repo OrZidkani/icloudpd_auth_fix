@@ -14,5 +14,5 @@ To use the iCloud Photo Downloader script, follow these steps:
 
 1. Clone the repository or download the script directly:
    ```bash
-   wget https://raw.githubusercontent.com/OrZidkan/icloudpd_auth_fix/main/icloud_downloader.sh
+   wget https://raw.githubusercontent.com/OrZidkani/icloudpd_auth_fix/main/icloud_downloader.sh
 Thanks to @scaraebeus for the fix.
