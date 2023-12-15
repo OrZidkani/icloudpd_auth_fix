@@ -11,10 +11,10 @@ ICLOUD_USERNAME=$1
 ICLOUD_PASSWORD=$2
 
 # Create a directory for iCloud
-mkdir /var/iCloud
+mkdir /var/tmp/iCloud
 
 # Change to the newly created directory
-cd /var/iCloud
+cd /var/tmp/iCloud
 
 # Download the script
 wget https://github.com/scaraebeus/icloud_photos_downloader/archive/refs/heads/auth_fix.zip
