@@ -18,8 +18,8 @@ To use the iCloud Photo Downloader script, follow these steps:
 2. Set execution permissions:
    ```bash
    chmod +x icloud_downloader.sh
-3. Run the script (ensure to replace placeholders with your iCloud username and password before running): 
+3. Run the script and proivde your iCloud User/Password: 
    ```bash
-   ./icloud_downloader.sh
+   ./icloud_downloader.sh <username> <password>
       
 Special thanks to @scaraebeus for their contribution to the fix.
